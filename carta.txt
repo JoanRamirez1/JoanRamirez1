@@ -1,12 +1,14 @@
 
+
 #include <iostream>
 int main()
+//version 2 triangulo
 {
-    int base, altura, res;
+    int base, altura, area;
     printf("Base:");
     scanf_s("%i", &base);
     printf("Altura:");
-    scanf_s("%i", & altura);
-    res = base * altura;
-    printf("El area es: %i", res);
+    scanf_s("%i", &altura);
+    area = (base * altura) / 2;
+    printf("El area es: %i", area);
 }
