@@ -1,0 +1,12 @@
+
+#include <iostream>
+int main()
+{
+    int base, altura, res;
+    printf("Base:");
+    scanf_s("%i", &base);
+    printf("Altura:");
+    scanf_s("%i", & altura);
+    res = base * altura;
+    printf("El area es: %i", res);
+}
